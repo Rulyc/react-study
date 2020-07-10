@@ -1,0 +1,31 @@
+.table-demo{
+  h2{
+    margin-bottom:10px;
+    &:not(:first-child){
+      margin-top:20px;
+    }
+  }
+  .flex-end{
+    display: flex;
+    justify-items: end;
+    justify-content: flex-end;
+    padding:0px 0 10px;
+  }
+
+  /deep/.el-dialog__header{
+    padding:0 0 10px !important;
+    margin-bottom:20px;
+    border-bottom:1px solid #ddd;
+  }
+  .dialog-footer{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
